@@ -1,0 +1,94 @@
+header{
+    background-color: var(--clr-grey-10);
+}
+
+.menu-sidebar{
+    position: fixed;
+}
+#demo{
+    max-width: 90%;
+    max-height: 45%;
+}
+.companies button{
+    background: none;
+    border: none;
+}
+.companies button:hover{
+    color: var(--clr-grey-7)!important;
+}
+.input-form input{
+    width: 8rem;
+    font-size: 80%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--clr-grey-5);
+}
+.item-main .row .col-md-4{
+    width: 31%;
+}
+@media (max-width: 360px) {
+    .col-sm-10{
+        width: 100%!important;
+        margin-left: 3rem;
+    }
+    .col-sm-10 img{
+        height: 9rem!important;
+    }
+    .shop-main{
+        display: block!important;
+    }
+    .col-2 {
+        width: 100%;
+        border-bottom: 2px solid var(--clr-grey-4);
+    }
+    .price-form input{
+        width: 70%;
+       }
+}
+@media (max-width: 799px) {
+    .col-sm-10{
+        margin-bottom: 1em;
+        margin-right: 0rem;
+    }
+    .col-sm-10 img{
+        height: 14rem;
+        width: 100%!important;
+    }
+    html{
+        font-size: 70%;
+    } 
+}
+@media (max-width:575px) {
+    .col-sm-10{
+        width: 80%;
+    }
+    .col-sm-10 img{
+        height: 7rem;
+        padding-left: 5px;
+    } 
+    .shop-main col-2{
+        font-size: 70%!important;
+    }
+    .sidebar{
+        padding: 5px!important;
+    }
+    html{
+    font-size: 70%;
+    }
+    .input-form input{
+        width: 90%;
+    }
+}
+@media (min-width:992px) {
+    .input-form input{
+        width: 120%;}
+}
+@media (max-width: 991px) {
+    html{
+        font-size: 70%;
+    }
+   .price-form input{
+    width: 70%;
+   }
+   
+}
